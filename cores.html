@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cores</title>
+    <style>
+        /* 
+            https://www.w3schools.com/colors/colors_hsl.asp           
+            https://coolors.co/
+            http://paletton.com/
+        */
+
+        body{
+            background-color: white;
+                                
+        }
+        div{
+            border: solid 2px black;
+            margin: 10px;
+            color: black;
+        }
+        div.primeira{            
+            background-color: green;
+        }
+        div.segunda{                        
+            background-color: #f67809;
+        }
+        div.terceira{            
+            background-color: #abc;            
+        }
+        div.quarta{            
+            background-color: #edc91280;           
+        }
+        div.quinta{            
+            background-color: rgb(55, 110, 220);           
+        }
+        div.sexta{            
+            background-color: rgba(55, 110, 220, 0.5);            
+        }
+        div.setima{                      
+            /*hue, saturation e lightness*/  
+            background-color: hsl(299, 72%, 46%);
+        }
+        div.oitava{
+            /*hue, saturation e lightness*/
+            background-color: hsla(299, 58%, 46%, 26%);
+        }
+        
+        </style>
+</head>
+
+<body>
+    <div class="primeira">Cor usando diretamente o nome: background-color: green;</div>
+    <div class="segunda">Cor usando o codigo hexadecimal: background-color: #f67809;</div>
+    <div class="terceira">Cor usando a abreviacao hexadecimal: background-color: #abc;</div>
+    <div class="quarta">Cor usando o codigo hexadecimal + saturacao: background-color: #edc91280;</div>
+    <div class="quinta">Cor usando o rgb: background-color: rgb(55, 110, 220);</div>
+    <div class="sexta">Cor usando o rgba: background-color: rgba(55, 110, 220, 0.5);</div>
+    <div class="setima">Cor usando o hsl: background-color: hsl(299, 72%, 46%);</div>
+    <div class="oitava">Cor usando o hsla: background-color: hsla(299, 58%, 46%, 26%);</div>
+</body>
+
+</html>
