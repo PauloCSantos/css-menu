@@ -10,7 +10,6 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 ## 📋 Pré-requisitos
 
-- npm / yarn
 - live server
 
 ## 🔧 Instalação
