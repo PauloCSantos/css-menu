@@ -22,6 +22,7 @@ git clone https://github.com/PauloCSantos/css-menu.git
 ## encontrar o arquivo index.html 
 abrir o arquivo utilizando o navegador ou a extensão liveserver
 
+```
 ## 🛠️ Construído com
 
 - HTML / CSS / JS
